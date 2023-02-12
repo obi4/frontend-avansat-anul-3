@@ -1,0 +1,52 @@
+.profileImage {
+  width: 250px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+.deleteImage {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+.imagesContainer {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+.container {
+  border: 1px solid #dddddd;
+  width: 250px;
+  height: 350px;
+  bottom: 20px;
+}
+
+.tag {
+  float: left;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addPhotoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 100px;
+}
